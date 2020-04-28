@@ -1,2 +1,2 @@
 # mid
-##js*3+json*2
+##jsx3+jsonx2
