@@ -8,7 +8,7 @@
 第14行新增import LoginScreen from './src/screens/LoginScreen'  
 第104行改成<Tab.Screen name="會員" component={MemberStack} />  
 第157行後新增  
-<code> const MemberStack = () => {
+```const MemberStack = () => {
   return (
    <Stack.Navigator>
      
@@ -31,4 +31,4 @@
      
       </Stack.Navigator>
   );
-} <code/>
+}```
