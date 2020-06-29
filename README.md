@@ -8,27 +8,27 @@
 第14行新增import LoginScreen from './src/screens/LoginScreen'  
 第104行改成<Tab.Screen name="會員" component={MemberStack} />  
 第157行後新增  
-    const MemberStack = () => {
-      return (
-       <Stack.Navigator>
+            const MemberStack = () => {
+              return (
+               <Stack.Navigator>
 
-            <Stack.Screen 
-              name="會員" 
-              component={MemberScreen} 
-              options={{
+                    <Stack.Screen 
+                      name="會員" 
+                      component={MemberScreen} 
+                      options={{
 
-                headerShown: false
-              }}
-            />
-             <Stack.Screen 
-              name="LoginScreen" 
-              component={LoginScreen} 
-              options={{
+                        headerShown: false
+                      }}
+                    />
+                     <Stack.Screen 
+                      name="LoginScreen" 
+                      component={LoginScreen} 
+                      options={{
 
-                headerShown: false
-              }}
-            />
+                        headerShown: false
+                      }}
+                    />
 
-          </Stack.Navigator>
-      );
-    }
+                  </Stack.Navigator>
+              );
+            }
