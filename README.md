@@ -1,5 +1,5 @@
 # mid
-## 修改部分>>  
+### 修改部分>>  
 ##### 在APP專案裡的img資料夾裡放置了四張圖，目前使用的是metromrt_03，其他也可以試試，個人覺得03效果比較好  
 ##### components資料夾裡新增了MemberDetail.js，ShopDetail.js改成點擊資訊icon開啟手機裡的google map  
 ##### json資料夾裡修改了icon.json，新增mapStyle.json、memberlist.json、metro.json  
