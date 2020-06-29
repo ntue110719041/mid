@@ -5,9 +5,9 @@
 ##### #json資料夾裡修改了icon.json，新增mapStyle.json、memberlist.json、metro.json  
 ##### #screens資料夾裡修改MemberScreen.js、StoreScreen.js，新增LoginScreen.js  
 ##### #App.js說明:  
-第14行新增import LoginScreen from './src/screens/LoginScreen'  
-第104行改成<Tab.Screen name="會員" component={MemberStack} />  
-第157行後新增  
+###### 第14行新增import LoginScreen from './src/screens/LoginScreen'  
+###### 第104行改成<Tab.Screen name="會員" component={MemberStack} />  
+###### 第157行後新增  
 ```javascript
 const MemberStack = () => {
   return (
